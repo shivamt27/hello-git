@@ -1,0 +1,20 @@
+1. git config
+Sets configuration values for your user name, email, gpg key, preferred diff algorithm, file formats and more.
+
+2. git init
+Initializes a git repository – creates the initial .git directory in a new or in an existing project. 
+
+3. git clone
+Creates a GIT repository copy from a remote source. Also adds the original location as a remote so you can fetch from it again and push to it if you have permissions.
+
+4. git add
+Adds files changes in your working directory to your index.
+
+5. git rm
+Removes files from your index and your working directory so they will not be tracked.
+
+6. git commit
+Takes all of the changes written in the index, creates a new commit object pointing to it and sets the branch to point to that new commit.
+
+7. git status
+Shows you the status of files in the index versus the working directory. It will list out files that are untracked (only in your working directory), modified (tracked but not yet updated in your index), and staged (added to your index and ready for committing).
